@@ -1,0 +1,17 @@
+version: 2
+
+models:
+  - name: fct_walmart_sales
+    columns:
+      - name: store_id
+        tests:
+          - not_null
+      - name: dept_id
+        tests:
+          - not_null
+      - name: date_id
+        tests:
+          - not_null
+      - name: store_weekly_sales
+        tests:
+          - not_null
